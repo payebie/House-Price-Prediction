@@ -1,8 +1,6 @@
-# 🏠 House Price Prediction — Snowflake ML Pipeline
+# 🏠 House Price Prediction Snowflake ML Pipeline
 
 > **Workshop : Data Engineering et Machine Learning avec Snowflake**  
-> **Étudiant :** AYEBIE Pla Dorgelès Armand
-              **Monica Branly MBOULA
 > **Promotion :** MBDIA — Classe 2  
 > **Livrable :** `MBAESG_MBDIA_CLASSE2_EVALUATION_DATAENGINEER_MLOPS`
 
@@ -14,15 +12,6 @@ Ce projet implémente un pipeline ML complet **entièrement dans Snowflake** pou
 
 Les données sont chargées depuis un bucket S3 (`s3://logbrain-datalake/datasets/house_price/`) via un **Stage externe Snowflake**, transformées en Python avec **Snowpark**, entraînées avec **scikit-learn / XGBoost**, stockées dans le **Snowflake Model Registry**, et exposées via une application **Streamlit**.
 
----
-
-## 📂 Structure du dépôt
-
-```
-.
-├── house_price_ml_snowflake.ipynb   # Notebook Snowflake — pipeline ML complet
-└── README.md                        # Ce fichier
-```
 
 ---
 
